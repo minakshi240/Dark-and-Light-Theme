@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px 32px;
+}
+
+body.dark {
+    background-color: #27292d;
+    color: whitesmoke;
+}
+
+h1 {
+    margin-bottom: 48px;
+}
+
+.container {
+    border: 1px solid blue;
+    padding: 32px;
+    margin-top: 16px;
+}
