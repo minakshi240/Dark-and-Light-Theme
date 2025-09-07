@@ -9,6 +9,12 @@ fullDarkModeCheckbox.addEventListener('change', (e) => {
   } else {
     document.body.classList.remove('dark')
   }
+  containedDarkModeCheckbox.checked = fullDarkModeCheckbox.checked
+  if (containedDarkModeCheckbox.checked) {
+    container.classList.add('dark')
+  } else {
+    container.classList.remove('dark')
+  }
 })
 
 
@@ -19,3 +25,4 @@ fullDarkModeCheckbox.addEventListener('change', (e) => {
     container.classList.remove('dark')
   }
 })
+
